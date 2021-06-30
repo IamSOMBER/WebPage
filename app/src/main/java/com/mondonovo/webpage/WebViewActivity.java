@@ -36,7 +36,7 @@ public class WebViewActivity extends AppCompatActivity {
     ENTER HERE THE URL. It should be an https site preferably, this is not the case
     so in the manifest android:usesCleartextTraffic="true" is needed
     */
-    static String URL = "http://www.campingdewijnstok.com";
+    static String URL = "http://tropea.lovefishok.com/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,9 +48,9 @@ public class WebViewActivity extends AppCompatActivity {
 
         siteWebView = findViewById(R.id.webview);
 
-        //Disabling JavaScript (useful??)
+        //Enable Javascript
         WebSettings webSettings = siteWebView.getSettings();
-        webSettings.setJavaScriptEnabled(false);
+        webSettings.setJavaScriptEnabled(true);
 
         SwipeRefreshLayout swipeRefreshLayout = findViewById(R.id.swipe_to_update);
         swipeRefreshLayout.setOnRefreshListener(() -> {

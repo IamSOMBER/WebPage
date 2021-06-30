@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">WebPage</string>
     <string name="no_connection">Nessuna connessione disponibile</string>
-    <string name="swipe_to_update">Fai uno swipe in basso per ricaricare la pagina quando sarai online</string>
+    <string name="swipe_to_update">Fai uno swipe in basso per ricaricare la pagina quando sarai online.\n
+        \n
+        (Se ci sono contenuti multimediali potrebbe essere necessario aggiornare più volte) </string>
     <string name="ok">ok</string>
 </resources>
